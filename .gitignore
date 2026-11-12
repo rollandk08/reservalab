@@ -1,0 +1,49 @@
+#DEPENDENCIAS
+/backend/vendor/
+/backend/node_modules/
+/frontend/node_modules/
+
+#VARIABLES DE ENTORNO
+/backend/.env
+/backend/.env.*
+!/backend/.env.example
+#ARCHIVOS GENERADOS POR LARAVEL
+/backend/public/build/
+/backend/public/storage/
+/backend/public/hot
+/backend/public/fonts-mainfest.dev.json
+/backend/bootstrap/cache/*.php
+/backend/storage/logs/*.log
+/backend/storage/framework/cache/data/*
+/backend/storage/*.key
+/backend/storage/pail/
+#ARCHIVOS GENERADOS POR VITE
+/frontend/dist/
+/frontend/dist-ssr/
+/frontend/.vite/
+/frontend/node_modules/.vite/
+#ARCHIVOS DE PRUEBAS Y CACHE
+.phpunit.result.cache
+phpunit.cache/
+.phpactor.json
+_ide_helper.php
+*.log
+*.tmp
+*.bak
+#EDITORES
+.vscode/
+.idea/
+.cursor/
+.codex/
+.nova/
+.zed/
+#CREDENCIALES
+auth.json
+#ARCHIVOS DEL SISTEMA
+.DS_Store
+Thumbs.db
+#CONFIGURACIONES ANTIGUAS
+Homestead.json
+Homestead.yaml
+
+
